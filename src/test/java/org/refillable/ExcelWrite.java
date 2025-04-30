@@ -24,6 +24,7 @@ public class ExcelWrite {
 		
 		FileOutputStream f=new FileOutputStream(".//data//SmartWatchesWrite.xlsx");
 		wb.write(f);
+		System.out.println("Excel write over");
 	}
 
 }
