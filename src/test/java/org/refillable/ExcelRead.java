@@ -46,5 +46,10 @@ public class ExcelRead {
 		
 	}
 	}
+
+	public CharSequence readData(String string) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 }

@@ -11,7 +11,7 @@ public class SearchPage extends CommonMethod{
 	SearchProduct sp=new SearchProduct();
 	ExcelRead er=new ExcelRead();
 	public void searchPdct() throws IOException {
-		sp.clickSearchBox().sendKeys(er.readData("Search value"));
+		sp.clickSearchBox().sendKeys("Redmi");
 		sp.clickMagnifier().click();;
 		
 	}
