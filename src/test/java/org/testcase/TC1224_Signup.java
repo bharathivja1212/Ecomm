@@ -12,10 +12,11 @@ public class TC1224_Signup extends CommonMethod{
 	
 	HomePage hp=new HomePage();
 	@Test
-	public void test1() throws IOException {
+	public void test1() throws IOException, InterruptedException {
 		launchBrowser();
 		passURL("https://www.flipkart.com/");
 		hp.signUp();
+		Thread.sleep(1000);
 		
 
 
